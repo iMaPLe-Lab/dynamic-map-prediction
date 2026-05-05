@@ -8,7 +8,7 @@ This repository contains the code implementation of our 2026 paper, "Knowing You
 * We demonstrate the effectiveness of existing spatio-temporal prediction models as future map state estimators in combination with our map merging method through multiple experiments.
 
 <p align="center" width="100%">
-  <img src='https://github.com/iMaPLe-Lab/dynamic-map-prediction/assets/method_overview.pdf' width="90%">
+  <img src='https://github.com/iMaPLe-Lab/dynamic-map-prediction/blob/main/assets/method_overview.pdf' width="90%">
 </p>
 
 For more information, please check out our paper:
