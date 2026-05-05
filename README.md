@@ -1,15 +1,15 @@
 
 # Knowing Your Blind Spots: Dynamic Map Prediction for Partially Observable Environments
 
+<p align="center" width="100%">
+  <img src='https://github.com/iMaPLe-Lab/dynamic-map-prediction/blob/main/assets/method_overview.png' width="90%">
+</p>
+
 This repository contains the code implementation of our 2026 paper, "Knowing Your Blind Spots: Dynamic Map Prediction for Partially Observable Environments". Our work focuses on the problem of predicting dynamic future map states using inputs subject to limited field-of-view and occlusions. We approach the problem through the following contributions:
 
 * We presente a novel approach for static map merging, which boosts map prediction model performance significantly while simultaneously reducing the number of required model input images, thereby increasing inference speed.
 * We create a benchmark dataset for dynamic occupancy map prediction in partially observable environments.
 * We demonstrate the effectiveness of existing spatio-temporal prediction models as future map state estimators in combination with our map merging method through multiple experiments.
-
-<p align="center" width="100%">
-  <img src='https://github.com/iMaPLe-Lab/dynamic-map-prediction/blob/main/assets/method_overview.pdf' width="90%">
-</p>
 
 For more information, please check out our paper:
 <p align="left">
