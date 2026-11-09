@@ -19,7 +19,7 @@ For more information, please check out our paper: (coming soon)
 
 ## Dataset
 
-The partially-observable map prediction dataset created and used in this work is available on our lab website: [TODO](TODO)
+The partially-observable map prediction dataset created and used in this work is available here: [https://research.coe.drexel.edu/shared/ece/imaple/BlindSpotData](https://research.coe.drexel.edu/shared/ece/imaple/BlindSpotData)
 
 ## Installation
 
