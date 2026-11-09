@@ -23,7 +23,7 @@ The partially-observable map prediction dataset created and used in this work is
 
 ## Installation
 
-This project is an application of two OpenSTL models (SimVPv2 and TAU) using our dataset and preprocessing approach. In order to use our code, first you will need to set up the [OpenSTL benchmark](https://github.com/chengtan9907/OpenSTL). You can follow the installation instructions on the OpenSTL repo, or they are mirrored here for reference:
+This project uses the TAU model through the OpenSTL framework using our dataset and data preprocessing approach. In order to use our code, first you will need to set up the [OpenSTL benchmark](https://github.com/chengtan9907/OpenSTL). You can follow the installation instructions on the OpenSTL repo, or they are mirrored here for reference:
 
 ```shell
 git clone https://github.com/chengtan9907/OpenSTL
@@ -33,7 +33,7 @@ conda activate OpenSTL
 python setup.py develop
 ```
 
-Once the OpenSTL benchmark is set up, you can download the two python notebooks and place them in the root directory of the OpenSTL code repo. The `limited_fov_baselines.ipynb` contains the code for running SimVPv2 and TAU baselines on unmerged image inputs. The `limited_fov_merged_input.ipynb` contains the code for running SimVPv2 and TAU using our map alignment and merging approach. In order to run the code you will need to update `root_dir` file path in the python notebooks to point to the folder containing the map prediction dataset.
+Once the OpenSTL benchmark is set up, you can download the `blind_spot_experiments.ipynb` python notebook and place it in the root directory of the OpenSTL code repo. It contains all the the code for running TAU using both the un-merged baselines and our map alignment and merging approach. In order to run the code you will need to update `root_dir` file path in the python notebooks to point to the folder containing the map prediction dataset.
 
 ## Citation
 
